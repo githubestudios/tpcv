@@ -1,0 +1,13 @@
+function show(id){
+
+	 	var element= document.getElementById(id);
+	 	
+	 	if(element.matches('.ocultar')){
+	 	element.classList.remove('ocultar');
+       
+        }else{
+          
+          element.classList.add('ocultar');
+         
+        }
+	 }
